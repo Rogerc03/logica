@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de elementos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button 
+    onclick="openModal()"
+    class="btnOpenModal">
+        Clique aqui para abrir o modal      
+    </button>
+    <div id="modal" class="modal modalClass">
+      <p class="modal-title">Modal</p>
+      <button onclick="openModal()" class="btnCloseModal">
+        Clique aqui para fechar o modal
+      </button>
+    </div>
+    <div>
+        <button onclick="operAzul()">Azul</button>
+        <button onclick="operAmarelo()">Amarelo</button>
+        <button onclick="openPreto()">Preto</button>
+        <div id="fundoCor" class="estrutura">
+
+        </div>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>
