@@ -42,4 +42,4 @@ if (number === 0){
     console.log (" Número negativo")
 }
 //número par, ou impar
-let number = -1
+let number1 = -1
